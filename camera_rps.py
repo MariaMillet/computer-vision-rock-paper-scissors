@@ -169,8 +169,8 @@ class Rock_Paper_Scissors:
         else:
             print("You won!")
 
-
-game = Rock_Paper_Scissors()
-game.play()
+if __name__ == "__main__":
+    game = Rock_Paper_Scissors()
+    game.play()
 
 
